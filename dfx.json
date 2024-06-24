@@ -1,0 +1,23 @@
+{
+    "canisters": {
+      "dao" : {
+        "main": "src/dao/main.mo",
+        "type": "motoko"
+      },
+      "token": {
+        "main": "src/token/main.mo",
+        "type": "motoko"
+      },
+      "webpage": {
+        "main": "src/webpage/main.mo",
+        "type": "motoko"
+      }
+    },
+    "defaults": {
+      "build": {
+        "args": "--hide-warnings",
+        "packtool": "mops sources"
+      }
+    }
+  }
+  
